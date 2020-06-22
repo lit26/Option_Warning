@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Container, Row, Col, Table } from 'react-bootstrap';
 import TradeForm from './TradeForm'
 
-
 const position = 1;
 const contract_size = 100;
 
@@ -104,6 +103,7 @@ export default class Layout extends Component {
         }else{
             max_loss_str = '$'+max_loss.toFixed(2);
         }
+        console.log(strikePrice_list)
 
         return (
             <Container>
