@@ -6,8 +6,12 @@ const footerStyle={
     paddingBottom: "30px",
     color: "#fff",
     background: "#2e2e2e",
-    textAlign: "left"
+    textAlign: "left",
+    position:"absolute",
+    bottom:'0',
+    width: '100%'
 }
+
 
 function Footer() {
     return (
