@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Option Warning",
-  "description": "This extension calculates max profit and loss of multiple options for option trading.",
+  "description": "This website calculates max profit and loss of multiple options for option trading.",
   "version": "0.1",
 
   "browser_action": {
